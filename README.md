@@ -1,6 +1,8 @@
 Descriptions are given in the same format as the mini-game descriptions given here: https://github.com/deepmind/pysc2/blob/master/docs/mini_games.md
 
-## Defeat Zealots
+A target skill is specified for each map under Additional Notes.
+
+## DefeatZealots
 
 ### Description
 
@@ -24,3 +26,4 @@ A map with 2 Stalkers opposite to 3 Zealots. Rewards are earned by using the Sta
 ### Additional Notes
 * Fog of War disabled
 * No camera movement required (single-screen)
+* Target skill: Kiting
