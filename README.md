@@ -79,7 +79,7 @@ Same as DefeatZealots but with 1 Stalker and 1 Zealot.
 * No camera movement required (single-screen)
 * Target skill: Kiting
 
-## MoveToBeaconAndAvoidBaneling
+## MoveToBeaconAvoidBaneling
 
 ### Description
 
