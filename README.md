@@ -78,3 +78,32 @@ Same as DefeatZealots but with 1 Stalker and 1 Zealot.
 * Fog of War disabled
 * No camera movement required (single-screen)
 * Target skill: Kiting
+
+## MoveToBeaconAndAvoidBaneling
+
+### Description
+
+Move the probe to the beacon, while avoiding the enemy baneling.
+
+### Initial State
+* 1 Probe at a random point on the map.
+* 1 Beacon at random point on the map, at least 5 units from the probe.
+* 1 Baneling at random point on the map, at least 5 units from the probe.
+
+### Rewards
+* Beacon reached: +1
+* Probe killed: -3
+
+### End Conditions
+* Time elapsed
+* Probe killed
+
+### Time Limit
+* 120 seconds
+
+### Additional Notes
+* Fog of War disabled
+* No camera movement required (single-screen)
+* Target skill: Avoiding enemies.
+
+
