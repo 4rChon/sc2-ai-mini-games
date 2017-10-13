@@ -83,20 +83,20 @@ Same as DefeatZealots but with 1 Stalker and 1 Zealot.
 
 ### Description
 
-Move the probe to the beacon, while avoiding the enemy baneling.
+A map with 1 Zergling, 1 Baneling, and 1 Beacon. Rewards are earned by moving the Zergling to the beacon. The player is penalised when the Baneling kills the Zergling. Whenever the Zergling earns a reward for reaching the Beacon, the Beacon is teleported to a random location (at least 5 units away from Zergling). Whenever the Zergling is killed by the Baneling, the Beacon is teleported to a random location (at least 5 units away from the Zergling, the Zergling respawns at a random location, and the Baneling respawns 5 units away from the Zergling towards the direction of the Beacon.
 
 ### Initial State
-* 1 Probe at a random point on the map.
-* 1 Beacon at random point on the map, at least 5 units from the probe.
-* 1 Baneling at random point on the map, at least 5 units from the probe.
+* 1 Zergling at a random location (unselected)
+* 1 Beacon at random location (at least 5 units away from the Zergling)
+* 1 Baneling 5 units away from the Zergling toward the direction of the Beacon.
 
 ### Rewards
 * Beacon reached: +1
-* Probe killed: -3
+* Zergling killed: -1
 
 ### End Conditions
 * Time elapsed
-* Probe killed
+* Zergling killed
 
 ### Time Limit
 * 120 seconds
