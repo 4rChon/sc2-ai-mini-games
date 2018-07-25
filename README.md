@@ -53,7 +53,7 @@ Same as DefeatZealots but the Stalkers have Blink.
 * No camera movement required (single-screen)
 * Target skill(s): Blink and Kiting
 
-## DefeatSingleZealot
+## DefeatSingleZealot (Old Description. Requires Update.)
 
 ### Description
 
